@@ -31,15 +31,15 @@
   --text-body: #C8CDD0;
   --text-heading: #F9F9F9;
 
-  --font-family-logo: 400 2.5rem/0 "Leckerli One", cursive;
+  --font-family-logo:"Leckerli One", cursive;
   --font-family-heading: "Baloo 2", sans-serif;
   --font-family-body: "Open Sans", sans-serif;
 
-  --font-family-heading-md: 700 1,75rem/0 var(--font-family-heading) ;
-  --font-family-heading-sm: 700 1,125rem/0 var(--font-family-heading) ;
-  --font-family-body-md: 600 1rem/0 var(--font-family-body) ;
-  --font-family-body-sm: 400 0,875rem/0 var(--font-family-body) ; 
-  --font-family-body-xs: 400 0,75rem/0 var(--font-family-body) ; 
+  --font-heading-md: 700 1,75rem var(--font-family-heading) ;
+  --font-heading-sm: 700 1,125rem var(--font-family-heading) ;
+  --font-body-md: 600 1rem var(--font-family-body) ;
+  --font-body-sm: 400 0,875rem var(--font-family-body) ; 
+  --font-body-xs: 400 0,75rem var(--font-family-body) ; 
 }
 
 
