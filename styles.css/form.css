@@ -1,0 +1,18 @@
+label {
+  font: var(--font-body-md);
+  color: var(--text-body);
+  display: block;
+  
+}
+
+fieldset {
+  border: none;
+
+  display: grid;
+  gap: 1.5rem;
+}
+
+.headline-main {
+  gap: .75rem;
+  margin-top: 2.5rem;
+}

@@ -35,12 +35,37 @@
   --font-family-heading: "Baloo 2", sans-serif;
   --font-family-body: "Open Sans", sans-serif;
 
-  --font-heading-md: 700 1,75rem var(--font-family-heading) ;
-  --font-heading-sm: 700 1,125rem var(--font-family-heading) ;
-  --font-body-md: 600 1rem var(--font-family-body) ;
-  --font-body-sm: 400 0,875rem var(--font-family-body) ; 
-  --font-body-xs: 400 0,75rem var(--font-family-body) ; 
+  --font-heading-md: 700 1.75rem var(--font-family-heading) ;
+  --font-heading-sm: 700 1.125rem var(--font-family-heading) ;
+  --font-body-md: 400 1rem var(--font-family-body) ;
+  --font-body-sm: 400 0.875rem var(--font-family-body) ; 
+  --font-body-xs: 400 0.75rem var(--font-family-body) ; 
 }
 
+.main-container {
+  padding-block: 5rem;
+  padding-inline: 8.125rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1rem {
+  gap: 1rem;
+}
+
+
+
+
+.title-md {
+  font: var(--font-heading-md);
+  color: var(--text-heading);
+}
+
+.title-sm {
+  font: var(--font-heading-sm);
+  color: var(--text-heading);
+}
 
 
