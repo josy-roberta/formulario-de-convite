@@ -7,21 +7,34 @@ input {
   outline: 1px solid var(--input-stroke); /*outiline em vez da boder pra não mexer o layout devido ao amento no px da bordar */
   background-color: var(--input-base);
   margin-top: 0.75rem;
-
   padding-block: .8125rem;
   padding-inline: 1rem;
-  
-  
 }
 
 input[placeholder] {
-    font: var(--font-body-md);
-    color: var(--input-placeholder);
-  }
+  font: var(--font-body-md);
+  color: var(--input-placeholder);
+}
 
-  
+.event-date {
+  text-transform: uppercase;
+}
 
 path {
-   fill:var(--input-placeholder);
+  fill:var(--input-placeholder);
 }
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator { /*seletor que muda o icone do calendário */
+  opacity: 0;
+}
+
+.grid-columns {
+  display: grid;
+  grid-template-columns: 50% 30%;
+ }
+
+
+
+
+
 
