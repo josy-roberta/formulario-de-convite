@@ -1,0 +1,56 @@
+/* 
+.radio-inner {
+  width: 50%;
+}
+
+input {
+  position: relative;
+  width: 100%;
+}
+
+svg {
+  position: absolute;
+  z-index: 9;
+}
+
+/* label {
+  position: absolute;
+  z-index: 9;
+} 
+
+
+.input-location {
+  width: 50%;
+} */
+
+.radio-button {
+  display: flex;
+  flex-direction: column;  
+}
+
+.radio-button__container  {
+  appearance: none;
+  height: 3rem;
+  width: 100%;
+  border-radius: .5rem;
+  border: 2px solid transparent; /*ajuda a evitar não mexer o layout, tramparente para nao aparecer e ficar com base*/
+  outline: 1px solid var(--input-stroke); /*outiline em vez da boder pra não mexer o layout devido ao amento no px da bordar */
+  background-color: var(--input-base);
+  margin-top: 0.75rem;
+  padding-block: .8125rem;
+  padding-inline: 1rem;
+  }
+
+.radio-button__item {
+  display: flex;
+  position: relative;
+}
+
+.radio-button__inner {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  gap: 5px;
+  transform: translate(10px, 6px);
+}
+
