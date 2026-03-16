@@ -63,6 +63,8 @@ svg {
 
 .radio-button__item:has(input:checked) {
   background-color: var(--shape-button);
+  border-radius: 4px;
+
 }
 
 .radio-button__inner {
@@ -76,8 +78,22 @@ svg {
   transform: translate(-50%, -50%);
 }
 
+.icon-button {
+  fill: var(--input-placeholder);
+  width: 1rem;
+  height: 1rem;
+}
+
+.radio-button__item:has(input:checked){
+  svg, path {
+    fill: var(--brand-light);
+    }
+}
+
 /* outro componente */
 
 .input-location {
   flex: 0 0 50%;
 } 
+
+/* fill: var(--brand-light); */

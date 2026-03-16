@@ -21,7 +21,7 @@ input[placeholder] {
   text-transform: uppercase;
 }
 
-path {
+.icon-calendar path {
   fill:var(--input-placeholder);
 }
 
