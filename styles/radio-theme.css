@@ -1,5 +1,6 @@
 .radio-theme {
   margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .radio-theme__container {
@@ -7,7 +8,6 @@
   margin-top: 1rem;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
-
 }
 
 .radio-theme__inner {
@@ -35,9 +35,9 @@
 
 .radio-theme__input {
   position: absolute;
-  width: 8rem;
-  height: 6rem;
-  /* visibility: hidden;  */
+  /* width: 8rem;
+  height: 6rem; */
+  visibility: hidden; 
 
  
   
