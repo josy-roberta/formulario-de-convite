@@ -1,0 +1,44 @@
+.radio-theme {
+  margin-top: 1.75rem;
+}
+
+.radio-theme__container {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+
+}
+
+.radio-theme__inner {
+  display: flex;
+  width: 8.375rem;
+  height: 6.4375rem;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-inline: 4px;
+  padding-bottom: 8px;
+  background-color: var(--shape-button) ;
+
+  & img {
+    border-radius: 4px;
+  }
+}
+
+.radio-theme__inner:has(input:checked) {
+  outline: 1px solid var(--brand-light) ;
+}
+
+.radio-theme__input {
+  position: absolute;
+  width: 8rem;
+  height: 6rem;
+  /* visibility: hidden;  */
+
+ 
+  
+}

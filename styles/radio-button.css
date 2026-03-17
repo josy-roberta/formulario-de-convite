@@ -64,7 +64,6 @@ svg {
 .radio-button__item:has(input:checked) {
   background-color: var(--shape-button);
   border-radius: 4px;
-
 }
 
 .radio-button__inner {
