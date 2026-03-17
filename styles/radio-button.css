@@ -89,11 +89,3 @@ svg {
     fill: var(--brand-light);
     }
 }
-
-/* outro componente */
-
-.input-location {
-  flex: 0 0 50%;
-} 
-
-/* fill: var(--brand-light); */

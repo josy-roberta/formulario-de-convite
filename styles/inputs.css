@@ -12,6 +12,10 @@ input[type="datetime-local"] {
   padding-inline: 1rem;
 }
 
+.focus:focus {
+  outline: 1px solid var(--brand-light) ;
+  }
+
 input[placeholder] {
   font: var(--font-body-md);
   color: var(--input-placeholder);
@@ -29,7 +33,11 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator { /*seletor que 
   opacity: 0;
 }
 
-.grid-columns {
-  display: grid;
-  grid-template-columns: 50% 30%;
- }
+.input-location {
+  flex: 0 0 50%;
+} 
+
+
+:valid .error {
+  display: none;
+}

@@ -55,6 +55,11 @@
   gap: 1rem;
 }
 
+.grid-columns {
+  display: grid;
+  grid-template-columns: 50% 30%;
+}
+
 /* tipografia */
 
 .title-md {
@@ -66,5 +71,4 @@
   font: var(--font-heading-sm);
   color: var(--text-heading);
 }
-
 
