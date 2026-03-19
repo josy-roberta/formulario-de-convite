@@ -72,3 +72,14 @@
   color: var(--text-heading);
 }
 
+.text-md {
+  font: var(--font-body-md);
+  color: var(--input-placeholder);
+}
+
+.text {
+  font: var(--font-body-sm);
+  color: var(--text-body);
+}
+
+

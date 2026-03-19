@@ -1,3 +1,4 @@
+
 .radio-color {
  margin-top:  1.5rem;
  margin-bottom: 1rem;;
@@ -8,7 +9,6 @@
   margin-top: 1rem;
   max-width: 100%;
   justify-content: space-between;
-  
 }
 
 .radio-collor__item {
@@ -33,7 +33,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+}  
 
 .radio-collor__input {
   width: 2.125rem;
@@ -42,7 +42,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  visibility: hidden; 
+  visibility: hidden;  
 }  
 
 .brand-light {

@@ -1,0 +1,23 @@
+
+.file-upload__item , .event-style__item {
+  margin-top: .75rem ;
+}
+
+
+.icon-file  {
+  fill: var(--brand-light);
+  
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-danger  {
+  fill: var(--danger);
+  width: 1rem;
+  height: 1rem;
+}
+
+.text-error {
+  font: var(--font-body-xs);
+  color: var(--danger);
+}

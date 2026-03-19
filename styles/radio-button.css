@@ -22,17 +22,20 @@ svg {
 .input-location {
   width: 50%;
 } */
+.event-type {
+  max-width: 36.25rem;
+}
 
-.radio-button {
+ .radio-button {
   display: flex;
   flex-direction: column; 
   flex: 0 0 50%;
-}
+} 
 
 .radio-button__container  {
   appearance: none;
   height: 3rem;
-  width: 100%;
+  
   border-radius: .5rem;
   border: 2px solid transparent; /*ajuda a evitar não mexer o layout, tramparente para nao aparecer e ficar com base*/
   outline: 1px solid var(--input-stroke); /*outiline em vez da boder pra não mexer o layout devido ao amento no px da bordar */
@@ -88,3 +91,8 @@ svg {
     fill: var(--brand-light);
     }
 }
+
+.input-location {
+  flex: 0 0 50%;
+} 
+

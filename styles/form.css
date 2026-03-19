@@ -1,8 +1,4 @@
-label {
-  font: var(--font-body-md);
-  color: var(--text-body);
-  display: block;
-}
+
 
 .about-event {
   border: none;
@@ -16,6 +12,7 @@ label {
 }
 
 .customization {
+  max-width: 35rem;
   border: none;
   padding-bottom: 3rem;
   gap: 1rem;

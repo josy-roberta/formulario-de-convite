@@ -7,7 +7,6 @@ body {
   grid-template-columns: 35.9375% 64.0625%;
   height: 100vh;
   overflow: hidden;
-
 }
 
 aside {
@@ -19,6 +18,10 @@ main {
   overflow: auto; /*para aparecer a rolagem no main*/
   margin: 20px; 
 } 
+
+fieldset {
+  max-width: 35rem;
+}
 
 aside, main {
   background-color: var(--shape-body);

@@ -23,6 +23,7 @@
   padding-inline: 4px;
   padding-bottom: 8px;
   background-color: var(--shape-button) ;
+  cursor: pointer;
 
   & img {
     border-radius: 4px;
@@ -38,7 +39,4 @@
   /* width: 8rem;
   height: 6rem; */
   visibility: hidden; 
-
- 
-  
 }
