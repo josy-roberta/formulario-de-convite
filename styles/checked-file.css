@@ -1,9 +1,72 @@
+.style-file__container {
+  height: 4.9375rem;
+}
 
 .file-upload__item , .event-style__item {
   margin-top: .75rem ;
 }
 
+.event-style__switch {
+  width: 11rem;
+  align-items: center;
+}
 
+.switch-text {
+  margin-left: 0.75rem ;
+}
+
+/* Esconde o input checkbox padrão */
+.event-style__input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+/* Fundo - span */
+.event-style__slider {
+  display: block;
+  position: relative;
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid var(--input-stroke);
+  background-color: var(--input-base) ;
+  border-radius: 62.4375rem;
+  cursor: pointer;
+}
+
+/* Bolinha que está acima do fundo, visto antes(before) - span */
+
+.event-style__slider::before {
+  content: "";
+  position: absolute;
+  height:1.5rem;
+  width: 1.5rem;
+  left: 3px;
+  top: 3px;
+  background-color: var(--input-stroke);
+  border-radius: 50%;
+  /* transition: 0.3s; */
+}
+
+/* Estado ON */
+
+.event-style__switch input:checked + .event-style__slider {
+  background-color: var(--brand-light);
+}
+
+.event-style__switch input:checked + .event-style__slider::before {
+  transform: translateX(2rem);
+  background-color: var(--text-heading);
+}
+
+.event-style__switch input:checked ~ .switch-text::after {  /*"Quando o input dentro de .switch estiver marcado, encontre um span .switch-text que vem depois dele e mude o conteúdo do ::after para 'Claro'"*/
+  content: "Claro";
+}
+
+.switch-text::after {
+  content: "Escuro";
+}
 .icon-file  {
   fill: var(--brand-light);
   
