@@ -1,0 +1,31 @@
+fieldset {
+  border: none;
+}
+
+.contact {
+  margin-bottom: 3rem;
+}
+
+.contact-name {
+  margin-top: 1.5rem ;
+}
+
+.icon-contact {
+  fill: var(--input-placeholder);
+  width: 1.5rem;
+  height: 1.5rem;
+  justify-content: space-between;
+}
+
+.email-fone {
+  justify-content: space-between;
+}
+
+.name-error {
+  margin-top:.5rem ;
+  gap: .5rem;
+}
+
+.line-divider {
+  border-bottom: 1px solid var(--input-stroke);
+}
