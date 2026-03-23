@@ -1,0 +1,108 @@
+/* .terms-checkbox {
+  position: relative;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  gap: 0.8rem;
+}
+
+.terms-checkbox__input {
+  appearance: none; 
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: .25rem;
+  border: 2px solid transparent;
+  outline: 1px solid var(--input-stroke); 
+  background-color: var(--input-base);
+  position: relative;
+
+   & :focus {
+    .icon-checked {
+    border: 1px solid var(--brand-light);
+    fill: var(--brand-light);
+    }
+  }
+  
+}
+
+.terms-checkbox__label {
+  
+  
+}
+
+.span-terms {
+  color: var(--brand-light);
+}
+
+.icon-checked {
+  fill: var(--brand-light);
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  z-index: 1;
+  align-self: center;
+  
+  & :focus {
+    .icon-checked {}
+    border: 1px solid var(--brand-light);
+    fill: var(--brand-light);
+    }
+  }
+
+  
+} */
+
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox input {
+  display: none;
+}
+
+/* Caixa do checkbox */
+.checkmark {
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--input-stroke);
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+}
+
+/* Estado checked */
+.checkbox input:checked + .checkmark {
+  border-color:var(--brand-light);
+  background-color: var(--input-base);
+}
+
+/* Check (✓) */
+.checkbox input:checked + .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 9px;
+  border: solid var(--brand-light);
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+}
+
+/* Links */
+.checkbox a {
+  color: var(--brand-light);
+  text-decoration: none;
+}

@@ -6,7 +6,20 @@ fieldset {
   margin-bottom: 3rem;
 }
 
-.contact-name {
+ .contact-name {
+  margin-top: 1.5rem ;
+
+  & input:invalid {
+  border: .125rem solid var(--danger);
+}
+
+  & :valid.name-error {
+    display: none;
+  }
+} 
+
+.contact-email-fone {
+  max-width: 17rem;
   margin-top: 1.5rem ;
 }
 
